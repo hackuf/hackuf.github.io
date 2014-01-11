@@ -11,18 +11,25 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+		
+		<!-- jQuery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
+		<!-- Infinite jekyll -->
+		<script src="/js/infinite-jekyll.js"></script>
 
     </head>
     <body>
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-			<p>I do apologize for not having much here, but I'm just diving into Jekyll a bit more. Not entirely sure what I'm going to use this space for so, in the meantime, check out my main website <a href="http://www.andrewjkerr.com">www.andrewjkerr.com</a>, follow me on Twitter <a href="http://www.twitter.com/andrewuf">@andrewuf</a>, or find me on GitHub <a href="http://www.github.com/andrewjkerr">@andrewjkerr</a>.</p>
-			<hr />
-			<br />
+	  		<h1>ANDREW J KERR</h1>
+	  		<p id="description">software engineering student at the university of florida</p>
+	  		<a class="nav-item" href="/">Home</a> | <a class="nav-item" href="/blog">Blog</a> | <a class="nav-item" href="http://www.github.com/andrewjkerr">Projects</a> | <a class="nav-item" href="http://www.andrewjkerr.com/resume.pdf">Resume</a> | <a class="nav-item" href="mailto:andrewjkerr47@gmail.com">Contact</a>
           </div>
+		  
+		<hr />
+		<br />
 
           {{ content }}
 
@@ -31,18 +38,18 @@
 			  <hr />
             <div class="contact">
               <p>
-                Andrew Kerr<br />
-                Software Engineering Student<br />
-				at the University of Florida<br />
-                <a href="mailto:andrewjkerr47@gmail.com">andrewjkerr47 AT gmail DOT com</a>
+                Andrew J Kerr | Gator Engineer<br />
+                <a href="https://www.twitter.com/andrewuf">@andrewuf</a> | 
+				<a href="https://www.github.com/andrewjkerr">GitHub</a><br />
+                <a href="mailto:andrewjkerr47@gmail.com">andrewjkerr47 AT gmail DOT com</a><br />
+				Built with <a href="http://jekyllrb.com/">jekyll</a> | View on <a href="https://github.com/andrewjkerr/andrewjkerr.github.io">GitHub</a>
               </p>
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/andrewjkerr">github</a><br />
-                <a href="https://twitter.com/andrewuf">@andrewuf</a><br />
-              </p>
-            </div>
+			<div class="posts-footer">
+			    {% for post in site.posts limit 4 %}
+			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			    {% endfor %}
+			</div>
           </div>
         </div>
 
