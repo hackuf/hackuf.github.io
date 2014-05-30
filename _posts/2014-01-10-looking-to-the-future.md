@@ -2,7 +2,7 @@
 layout: post
 title:  "Looking to the Future"
 date:   2014-01-10 22:00:00
-categories: updates
+categories: blog update
 ---
 
 The new year brings some new challenges, adventures, and, as always, courses.
