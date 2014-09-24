@@ -1,3 +1,13 @@
-name: ANDREW J KERR
-markdown: redcarpet
-pygments: true
+# Site settings
+title: Andrew J Kerr
+email: me@andrewjkerr.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal homepage for Andrew J Kerr, Software Engineering student
+  at the University of Florida.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.andrewjkerr.com" # the base hostname & protocol for your site
+twitter_username: andrewuf
+github_username:  andrewjkerr
+
+# Build settings
+markdown: kramdown
