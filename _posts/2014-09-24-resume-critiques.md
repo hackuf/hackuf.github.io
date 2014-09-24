@@ -4,13 +4,13 @@ title:  "Resume Critiques"
 date:   2014-09-24 17:00:00
 categories: blog resumes
 ---
+Over the years, I've had a lot of help with my [resume](http://andrewjkerr.github.io/resume.pdf) and I've always appreciated the people who took the time to look over it. They have always given me good feedback which have helped me up my resume game and have an awesome resume.
+
 <style>
 ul, ol {
 	margin-top: -15px;
 }
 </style>
-
-Over the years, I've had a lot of help with my [resume](http://andrewjkerr.github.io/resume.pdf) and I've always appreciated the people who took the time to look over it. They have always given me good feedback which have helped me up my resume game and have an awesome resume.
 
 So, with Career Showcase coming up, I'd like to give back and do some critiques. If you want me to critique your resume, please send an email to [me AT andrewjkerr DOT com](mailto:me@andrewjkerr.com?Subject=Resume Critique) and I'll give you some feedback.
 
