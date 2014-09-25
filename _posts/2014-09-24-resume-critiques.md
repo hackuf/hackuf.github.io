@@ -21,7 +21,7 @@ Two things to note though:
 
 While I'm on the topic of resumes, there are a bunch of upcoming events that UF students (specifically CISE/ECE) should be aware of:
 
-* [The Career Development Workshop](https://www.cise.ufl.edu/careerworkshop/index.shtml) - Sep 24, 2014 from 1800-2200 at [the Hilton University of Florida Conference Center](https://www.google.com/maps/place/Hilton+University+Of+Florida+Conference+Center+Gainesville/@29.636699,-82.37397,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x65c4942b63b31ec0)
+* [The Career Development Workshop](https://www.cise.ufl.edu/careerworkshop/index.shtml) - Sep 29, 2014 from 1800-2200 at [the Hilton University of Florida Conference Center](https://www.google.com/maps/place/Hilton+University+Of+Florida+Conference+Center+Gainesville/@29.636699,-82.37397,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x65c4942b63b31ec0)
 * [Career Showcase](http://www.crc.ufl.edu/employers/employerCareerShowcase.html) - Oct 01, 2014 from 0900-1500 in [the O'Connell Center](https://www.google.com/maps/place/o'connell+center/@29.64981,-82.35067,15z/data=!4m2!3m1!1s0x0:0xcdc7ad98656bfefd?sa=X&ei=oTkjVPiAMcz8oQTNi4KABg&ved=0CKIBEPwSMBI)
 * [IEEE Info Sessions](http://ieee.ece.ufl.edu) - Various Times
 * [ACM Info Sessions](http://acm.cise.ufl.edu/) - Various Times
