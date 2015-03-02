@@ -4,7 +4,7 @@ date:   2015-03-02 02:00:00
 tags:   update, middleman
 ---
 
-As I mentioned about two weeks ago, I decided to start using [Middleman](https://middlemanapp.com/) instead of [Jekyll](http://jekyllrb.com/). I've used Jekyll for years, but finally decided to flip the switch today.
+As I mentioned about two weeks ago, I decided to start using [Middleman](https://middlemanapp.com/) instead of [Jekyll](http://jekyllrb.com/). I've used Jekyll [for awhile](http://andrewjkerr.com/blog/welcome-to-jekyll/), but finally decided to flip the switch today.
 
 The primary reason for switching to Middleman was the ability to use [Slim](http://slim-lang.com/) to write content. As I [mentioned before](http://andrewjkerr.com/blog/starters/), Slim reduces the syntax to the point where your code is actually readable. I prefer languages that require less syntax (Ruby being one of them) so I absolutely love Slim.
 
