@@ -34,9 +34,10 @@ html
                 = link_to "#{next_article.title} ", next_article.url
                 | &raquo;
       - else
-        - if current_page.data.title
-          div class="#{current_page.data.title.downcase}"
+          div class="page"
+            - if current_page.data.header
+              h1
+                = current_page.data.header
             = yield
-        - else
-          = yield
+
       = partial "partials/footer"
