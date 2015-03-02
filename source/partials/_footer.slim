@@ -1,4 +1,6 @@
 footer
+  =image_tag 'profile-pic.jpg', class: 'icon'
+
   p.small-column.social
     a href="mailto:me@andrewjkerr.com"
       i class="fa fa-envelope-o"
@@ -12,4 +14,5 @@ footer
       i class="fa fa-linkedin-square"
 
   p.large-column.tagline
-    | Made with love, Middleman, and coffee by Andrew Kerr.
+    | Made with
+    = link_to 'Middleman.', 'https://github.com/andrewjkerr/middleman_starter'
