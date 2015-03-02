@@ -1,19 +1,15 @@
 footer
-  ul.large-column
-    li
-      h5.heading Recent Articles
-    li
-      ol
-        - blog.articles[0...10].each do |article|
-          li
-            = link_to article.title, article
-            span
-              = article.date.strftime('%b %e')
-  ul.small-column
-    li
-      h5.heading Tags
-    li
-      ol
-        - blog.tags.each do |tag, articles|
-          li
-            = link_to "#{tag} (#{articles.size})", tag_path(tag)
+  p.small-column.social
+    a href="mailto:me@andrewjkerr.com"
+      i class="fa fa-envelope-o"
+    a href="https://www.facebook.com/andrewjkerr"
+      i class="fa fa-facebook-square"
+    a href="https://twitter.com/andrewuf"
+      i class="fa fa-twitter-square"
+    a href="https://github.com/andrewjkerr"
+      i class="fa fa-github-square"
+    a href="https://www.linkedin.com/in/andrewjkerr47"
+      i class="fa fa-linkedin-square"
+
+  p.large-column.tagline
+    | Made with love, Middleman, and coffee by Andrew Kerr.

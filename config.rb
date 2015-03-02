@@ -4,8 +4,8 @@
 
 # Time.zone = "UTC"
 
-set :site_title, "My Blog"
-set :site_url, "http://andrewjkerr.com/middleman_starter"
+set :site_title, "Andrew J Kerr"
+set :site_url, "http://andrewjkerr.com"
 
 # Site not in root folder? Set this to true.
 set :relative_links, true
@@ -30,9 +30,9 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.html"
 
   # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/{num}"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/{num}"
 end
 
 page "/feed.xml", layout: false
@@ -96,15 +96,17 @@ set :js_dir, 'assets/javascripts'
 
 set :images_dir, 'assets/images'
 
+set :docs_dir, 'assets/documents'
+
 set :build_dir, 'tmp'
 
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash
@@ -118,4 +120,10 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
+end
+
+helpers do
+  def link_to_doc(text, filename, options = {})
+    link_to text, "/#{docs_dir}/#{filename}", options
+  end
 end

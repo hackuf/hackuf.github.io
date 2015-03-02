@@ -17,7 +17,12 @@ gem "rack-contrib", "~> 1.2.0"
 gem 'bitters', '~> 1.0.0'
 gem 'bourbon', '~> 4.2.0'
 gem 'neat', '~> 1.7.1'
+
+# Dotenv for configs
 gem 'middleman-dotenv', '~> 1.1.1'
+
+# Nokogiri for blog summaries
+gem 'nokogiri', '~> 1.6.6.2'
 
 group :development do
   gem "middleman-livereload", "~> 3.1.1"
