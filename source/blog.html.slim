@@ -13,7 +13,7 @@ ul
       p
         = article.summary
         = link_to 'Read more…', article
-      - if (i % (page_articles.size - 1)) != 0 || i == 0
+      - if page_articles.size != 0 || (i % (page_articles.size - 1)) != 0 || i == 0
         hr
 - if paginate && num_pages > 1
   .paginate-bottom
