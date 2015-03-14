@@ -4,38 +4,38 @@
 
 # Time.zone = "UTC"
 
-set :site_title, "Andrew J Kerr"
-set :site_url, "http://andrewjkerr.com"
+set :site_title, "HackUF"
+set :site_url, "http://hackuf.com"
 
 # Site not in root folder? Set this to true.
-set :relative_links, true
+set :relative_links, false
 
-activate :blog do |blog|
-  # This will add a prefix to all links, template references and source paths
-  blog.prefix = "blog"
-
-  blog.permalink = "{title}.html"
-  # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
-  # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
-
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
-
-  # Enable pagination
-  blog.paginate = true
-  blog.per_page = 10
-  blog.page_link = "page/{num}"
-end
-
-page "/feed.xml", layout: false
+# activate :blog do |blog|
+#   # This will add a prefix to all links, template references and source paths
+#   blog.prefix = "blog"
+# 
+#   blog.permalink = "{title}.html"
+#   # Matcher for blog source files
+#   # blog.sources = "{year}-{month}-{day}-{title}.html"
+#   # blog.taglink = "tags/{tag}.html"
+#   # blog.layout = "layout"
+#   # blog.summary_separator = /(READMORE)/
+#   # blog.summary_length = 250
+#   # blog.year_link = "{year}.html"
+#   # blog.month_link = "{year}/{month}.html"
+#   # blog.day_link = "{year}/{month}/{day}.html"
+#   # blog.default_extension = ".markdown"
+# 
+#   blog.tag_template = "tag.html"
+#   blog.calendar_template = "calendar.html"
+# 
+#   # Enable pagination
+#   blog.paginate = true
+#   blog.per_page = 10
+#   blog.page_link = "page/{num}"
+# end
+# 
+# page "/feed.xml", layout: false
 
 ###
 # Compass
@@ -122,10 +122,4 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
   deploy.branch = 'master'
-end
-
-helpers do
-  def link_to_doc(text, filename, options = {})
-    link_to text, "/#{docs_dir}/#{filename}", options
-  end
 end
