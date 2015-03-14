@@ -1,5 +1,4 @@
-# andrewjkerr.com
-Personal site of Andrew J Kerr. Powered by coffee and Middleman.
+# hackuf.com
 
 ## Organization
 
